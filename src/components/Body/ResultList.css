@@ -1,0 +1,25 @@
+.result-list-container {
+    height: 600px;
+    overflow-y: auto;
+    overflow-x: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+  }
+  
+  /* 横スクロールを可能にするためにmin-widthを設定 */
+  .result-table {
+    width: 100%;
+    min-width: 600px; /* ← 横スクロールしたい場合はこの値を調整 */
+    border-collapse: collapse;
+    table-layout: auto;
+  }
+  
+  .result-table th,
+  .result-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    white-space: nowrap; /* 折り返し防止 */
+  }
+  

@@ -1,0 +1,37 @@
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .logo-image {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+  
+  .page-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .header-right {
+    text-align: right;
+    font-size: 14px;
+  }
+  
+  .time {
+    font-weight: bold;
+  }
+  
+  .user-name {
+    color: #666;
+  }
+  

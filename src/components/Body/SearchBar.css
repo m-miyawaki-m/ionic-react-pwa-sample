@@ -1,0 +1,12 @@
+.searchbar-container {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* バーとボタンの間隔 */
+    margin-bottom: 12px;
+  }
+  
+  .searchbar-container ion-searchbar {
+    flex: 1; /* 横幅を自動調整して広げる */
+    margin: 0;
+  }
+  

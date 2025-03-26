@@ -1,0 +1,13 @@
+.page-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* 全体を画面サイズにフィットさせる */
+  }
+  
+  .page-body {
+    flex: 1; /* ヘッダーとフッター以外の高さをここに割り当て */
+    overflow: hidden; /* 必要に応じて */
+    display: flex;
+    flex-direction: column;
+  }
+  
